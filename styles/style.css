@@ -26,9 +26,14 @@ header {
     padding: 25px 10%;
 }
 
-div {
-    display: inline-block;
+#logo {
     cursor: pointer;
+    height: 45px;
+    width: 45px;
+}
+
+.logo:hover {
+    color: #0088a9;
 }
 
 .nav_link {
@@ -41,7 +46,7 @@ div {
 }
 
 .nav_link li a {
-    transition: all 0.3 ease 0s;
+    transition: all 0.5s ease 0s;
 }
 
 .nav_link li a:hover {
