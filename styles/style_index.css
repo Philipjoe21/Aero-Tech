@@ -5,8 +5,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #383636;
     font-size: 1rem;
+}
+
+#body {
+    background-color: #0088a9;
+    height: 100vh;
 }
 
 h1 {
@@ -14,54 +18,73 @@ h1 {
 }
 
 li, a, button {
-    font-weight: 500;
     color: #ffffff;
-    text-decoration: none;
 }
 
-header {
+.nav_link {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 10%;
+    padding: 12px 10%;
+    background-color: #0c0831;
 }
 
 #logo {
     cursor: pointer;
-    height: 45px;
-    width: 45px;
+    height: 70px;
+    width: 90%;
 }
 
-.logo:hover {
-    color: #0088a9;
-}
-
-.nav_link {
+.nav_links {
     list-style: none;
+    padding: 0%;
+    justify-items: center;
 }
 
-.nav_link li {
+.nav_links li {
     display: inline-block;
     padding: 0 20px;
 }
 
-.nav_link li a {
+.nav_links li a {
+    color: #ffffff;
     transition: all 0.5s ease 0s;
+    text-decoration: none;
 }
 
-.nav_link li a:hover {
+#contact {
+    text-decoration: double;
+    list-style: none;
+    display: inline-block;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-left: 50px !important;
+}
+
+#contact a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav_links li a:hover {
     color: #0088a9;
 }
 
-button {
+#contact:hover {
+    color: #0088a9;
+}
+
+.nav_button {
     padding: 9px 25px;
     border-radius: 50px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
+    text-transform: uppercase;
     cursor: pointer;
     transition: all 0.3 ease 0s;
 }
 
-button:hover {
+header button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
+
