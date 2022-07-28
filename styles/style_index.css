@@ -62,7 +62,7 @@ li, a, button {
 }
 
 .nav_links li a {
-    color: var(--primary-color);
+    color: var(--white-color);
     transition: all 0.5s ease 0s;
     text-decoration: none;
 }
@@ -114,7 +114,7 @@ header button:hover {
 .you {
     justify-content: center;
     margin: auto;
-    border: 1px solid #e3e3e3;
+    border: 1px solid var(--primary-color);
     border-radius: 16px;
     padding: 48px;
     height: 478px;
@@ -188,7 +188,7 @@ svg {
     position: relative;
     background-color: #f58895;
     font-weight: lighter;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 #alert_wrapper p {
