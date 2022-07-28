@@ -37,6 +37,10 @@ li, a, button {
     background-color: #0c0831;
 }
 
+#nav_linkss {
+    margin: 0;
+}
+
 #logo {
     cursor: pointer;
     height: 70px;
@@ -46,7 +50,6 @@ li, a, button {
 .nav_links {
     list-style: none;
     padding: 0%;
-    justify-items: center;
 }
 
 .nav_links li {
