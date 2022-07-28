@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login in </title>
+    <link rel="stylesheet" href="./styles/style_index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    <section>
+        <header class="nav_link">
+            <a href="./index.html" class="logo_link"><img id="logo" src="./asset/Logo_1.png" alt="Logo"></a>
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+            <li id="contact"><a href="#">Contact</a></li>
+        </header>
+    </section>
+        <div class="me">
+            <div class="you">
+                <h1>Welcome</h1>
+                <div class="form">
+                    <form>
+                        <!-- <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname"><br> -->
+                        <div class="wrapper">
+                            <label for="email" id="email">Email</label><span style="font-size: 14px;">Don't have an account? <a id="sign_up_link" href="./sign_up.html">Sign up</a></span>
+                        </div>
+                        <div class="email_input_field">
+                            <input type="email" id="input_field" name="email">
+                        </div>
+                        
+                        <div class="wrapper">
+                            <label for="password">Password</label><span id="show_password"><svg viewBox="0 0 576 512"><path d="M279.6 160.4C282.4 160.1 285.2 160 288 160C341 160 384 202.1 384 256C384 309 341 352 288 352C234.1 352 192 309 192 256C192 253.2 192.1 250.4 192.4 247.6C201.7 252.1 212.5 256 224 256C259.3 256 288 227.3 288 192C288 180.5 284.1 169.7 279.6 160.4zM480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6V112.6zM288 112C208.5 112 144 176.5 144 256C144 335.5 208.5 400 288 400C367.5 400 432 335.5 432 256C432 176.5 367.5 112 288 112z"/></svg>show</span>
+                        </div>
+                        <div class="password_input_field">
+                            <input type="password" id="input_field" name="password">
+                        </div>
+                    </form>
+                    <div class="alert_container">
+                        <div id="alert_wrapper">
+                            <span><svg viewBox="0 0 576 512"><path d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/></svg>Email and Password don't match</span>
+                        </div>
+                    </div>
+                        
+                    <div class="mee">
+                        <button type="submit" id="login_btn">Login</button>
+                    </div>
+                    <div id="forgot_password_conatiner">
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    <section>
+        <h1></h1>
+    </section>
+</body>
+</html>

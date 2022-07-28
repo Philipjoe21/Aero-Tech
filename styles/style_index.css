@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
+:root {
+    --primary-color: rgb(40, 33, 53);
+    --hover-primary-color: rgba(40, 33, 53, 0.8)
+}
+
 * {
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
@@ -14,7 +19,10 @@
 }
 
 h1 {
-    color: aqua;
+    color: #282135;
+    font-weight: 700;
+    font-size: 29px;
+    text-transform: uppercase;
 }
 
 li, a, button {
@@ -88,3 +96,122 @@ header button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
 
+.me {
+    background-color: rgb(255, 255, 255);
+    height: calc(100vh - 101px);
+    display: flex;
+}
+
+.you {
+    justify-content: center;
+    margin: auto;
+    border: 1px solid #e3e3e3;
+    border-radius: 16px;
+    padding: 48px;
+    height: 478px;
+    width: 492px;
+}
+
+input {
+    width: 100%;
+}
+
+form {
+    margin: auto;
+}
+
+label {
+    text-align: left;
+    font-size: 1rem;
+}
+
+#sign_up_link {
+    color: #0088a9;
+    font-size: 14px;
+}
+
+.wrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#input_field {
+    font-size: 14px;
+    border-radius: 4px;
+    margin: 6px 0;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+input[type=email]:focus {
+    border: 1px solid var(--primary-color);
+}
+
+svg {
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+
+#show_password {
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.alert_container {
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+}
+
+#alert_wrapper {
+    border-radius: 4px;
+    padding: 12px;
+    max-width: 100%;
+    font-size: 12px;
+    color: #282a35;
+    position: relative;
+    background-color: #f58895;
+    font-weight: lighter;
+    visibility: hidden;
+}
+
+#alert_wrapper p {
+    margin: 0;
+}
+
+.mee {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#login_btn {
+    background-color: var(--primary-color);
+    border-radius: 0 14px 0 14px;
+    text-transform: uppercase;
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+}
+
+#login_btn:hover {
+    background-color: var(--hover-primary-color);
+}
+
+#forgot_password_conatiner {
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#forgot_password_conatiner > a {
+    color: #0c0831;
+    text-decoration: none;
+    font-size: 12px;
+}
