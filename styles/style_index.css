@@ -106,13 +106,14 @@ header button:hover {
 }
 
 .me {
-    background-color: var(--secondary-color);
+    background-color: var(--white-color);
     height: calc(100vh - 101px);
     display: flex;
 }
 
 .you {
     justify-content: center;
+    background-color: var(--secondary-color);
     margin: auto;
     border: 1px solid var(--primary-color);
     border-radius: 16px;
@@ -188,7 +189,7 @@ svg {
     position: relative;
     background-color: #f58895;
     font-weight: lighter;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 
 #alert_wrapper p {
