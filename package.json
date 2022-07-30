@@ -1,5 +1,23 @@
 {
-  "dependencies": {
+  "name": "aero-tech",
+  "description": "creating a web page for my website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
     "typescript": "^4.7.4"
-  }
+  },
+  "scripts": {
+    "start": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Philipjoe21/Aero-Tech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Philipjoe21/Aero-Tech/issues"
+  },
+  "homepage": "https://github.com/Philipjoe21/Aero-Tech#readme"
 }
